@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>基础动画</string>
+		<key>vcName</key>
+		<string>AnimatViewController</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>自定义CollectionView</string>
+		<key>vcName</key>
+		<string>CustomCollectionViewController</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>CoreImage</string>
+		<key>vcName</key>
+		<string>CoreImageViewController</string>
+	</dict>
+</array>
+</plist>

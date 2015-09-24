@@ -10,10 +10,16 @@
 		0403F5921BB0E1E0003F3E40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403F5911BB0E1E0003F3E40 /* main.m */; };
 		0403F5951BB0E1E0003F3E40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403F5941BB0E1E0003F3E40 /* AppDelegate.m */; };
 		0403F5981BB0E1E0003F3E40 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403F5971BB0E1E0003F3E40 /* ViewController.m */; };
-		0403F59B1BB0E1E0003F3E40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0403F5991BB0E1E0003F3E40 /* Main.storyboard */; };
 		0403F59D1BB0E1E0003F3E40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0403F59C1BB0E1E0003F3E40 /* Images.xcassets */; };
-		0403F5A01BB0E1E0003F3E40 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0403F59E1BB0E1E0003F3E40 /* LaunchScreen.xib */; };
 		0403F5AC1BB0E1E0003F3E40 /* FirstProjectInGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403F5AB1BB0E1E0003F3E40 /* FirstProjectInGitTests.m */; };
+		04D596B51BB3909F00216B7E /* referanceViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04D596B41BB3909F00216B7E /* referanceViewController.plist */; };
+		04D596BB1BB3C7DF00216B7E /* CustomCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D596BA1BB3C7DF00216B7E /* CustomCollectionViewController.m */; };
+		04D596C21BB3C82C00216B7E /* CustomCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D596C11BB3C82C00216B7E /* CustomCollectionCell.m */; };
+		04D596D81BB3CB9700216B7E /* collectionData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04D596D71BB3CB9700216B7E /* collectionData.plist */; };
+		04D596DC1BB3DE0600216B7E /* AnimatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D596DB1BB3DE0600216B7E /* AnimatViewController.m */; };
+		04D596DF1BB3E00700216B7E /* BezierViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D596DE1BB3E00700216B7E /* BezierViewController.m */; };
+		04D596E31BB3E05C00216B7E /* CoreGraphicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D596E21BB3E05C00216B7E /* CoreGraphicsViewController.m */; };
+		04D596E71BB3E08000216B7E /* CoreImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D596E61BB3E08000216B7E /* CoreImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +40,24 @@
 		0403F5941BB0E1E0003F3E40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0403F5961BB0E1E0003F3E40 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0403F5971BB0E1E0003F3E40 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0403F59A1BB0E1E0003F3E40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0403F59C1BB0E1E0003F3E40 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		0403F59F1BB0E1E0003F3E40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0403F5A51BB0E1E0003F3E40 /* FirstProjectInGitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstProjectInGitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0403F5AA1BB0E1E0003F3E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0403F5AB1BB0E1E0003F3E40 /* FirstProjectInGitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstProjectInGitTests.m; sourceTree = "<group>"; };
+		04D596B41BB3909F00216B7E /* referanceViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = referanceViewController.plist; sourceTree = "<group>"; };
+		04D596B91BB3C7DF00216B7E /* CustomCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomCollectionViewController.h; path = CustomCollection/CustomCollectionViewController.h; sourceTree = "<group>"; };
+		04D596BA1BB3C7DF00216B7E /* CustomCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomCollectionViewController.m; path = CustomCollection/CustomCollectionViewController.m; sourceTree = "<group>"; };
+		04D596C01BB3C82C00216B7E /* CustomCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomCollectionCell.h; path = CustomCollection/CustomCollectionCell.h; sourceTree = "<group>"; };
+		04D596C11BB3C82C00216B7E /* CustomCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomCollectionCell.m; path = CustomCollection/CustomCollectionCell.m; sourceTree = "<group>"; };
+		04D596D71BB3CB9700216B7E /* collectionData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = collectionData.plist; path = CustomCollection/collectionData.plist; sourceTree = "<group>"; };
+		04D596DA1BB3DE0600216B7E /* AnimatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnimatViewController.h; path = CABasicAnimation/AnimatViewController.h; sourceTree = "<group>"; };
+		04D596DB1BB3DE0600216B7E /* AnimatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnimatViewController.m; path = CABasicAnimation/AnimatViewController.m; sourceTree = "<group>"; };
+		04D596DD1BB3E00700216B7E /* BezierViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BezierViewController.h; path = Bezier/BezierViewController.h; sourceTree = "<group>"; };
+		04D596DE1BB3E00700216B7E /* BezierViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BezierViewController.m; path = Bezier/BezierViewController.m; sourceTree = "<group>"; };
+		04D596E11BB3E05C00216B7E /* CoreGraphicsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreGraphicsViewController.h; path = CoreGraphic/CoreGraphicsViewController.h; sourceTree = "<group>"; };
+		04D596E21BB3E05C00216B7E /* CoreGraphicsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreGraphicsViewController.m; path = CoreGraphic/CoreGraphicsViewController.m; sourceTree = "<group>"; };
+		04D596E51BB3E08000216B7E /* CoreImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreImageViewController.h; path = CoreImage/CoreImageViewController.h; sourceTree = "<group>"; };
+		04D596E61BB3E08000216B7E /* CoreImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreImageViewController.m; path = CoreImage/CoreImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +103,12 @@
 				0403F5941BB0E1E0003F3E40 /* AppDelegate.m */,
 				0403F5961BB0E1E0003F3E40 /* ViewController.h */,
 				0403F5971BB0E1E0003F3E40 /* ViewController.m */,
-				0403F5991BB0E1E0003F3E40 /* Main.storyboard */,
+				04D596E81BB3E08500216B7E /* CoreImage */,
+				04D596E41BB3E06000216B7E /* CoreGraphic */,
+				04D596E01BB3E00C00216B7E /* Bezier */,
+				04D596D91BB3DDD200216B7E /* CABasicAnimation */,
+				04D596BC1BB3C7EF00216B7E /* CustomCollection */,
 				0403F59C1BB0E1E0003F3E40 /* Images.xcassets */,
-				0403F59E1BB0E1E0003F3E40 /* LaunchScreen.xib */,
 				0403F58F1BB0E1E0003F3E40 /* Supporting Files */,
 			);
 			path = FirstProjectInGit;
@@ -98,6 +119,8 @@
 			children = (
 				0403F5901BB0E1E0003F3E40 /* Info.plist */,
 				0403F5911BB0E1E0003F3E40 /* main.m */,
+				04D596B41BB3909F00216B7E /* referanceViewController.plist */,
+				04D596D71BB3CB9700216B7E /* collectionData.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -117,6 +140,53 @@
 				0403F5AA1BB0E1E0003F3E40 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04D596BC1BB3C7EF00216B7E /* CustomCollection */ = {
+			isa = PBXGroup;
+			children = (
+				04D596B91BB3C7DF00216B7E /* CustomCollectionViewController.h */,
+				04D596BA1BB3C7DF00216B7E /* CustomCollectionViewController.m */,
+				04D596C01BB3C82C00216B7E /* CustomCollectionCell.h */,
+				04D596C11BB3C82C00216B7E /* CustomCollectionCell.m */,
+			);
+			name = CustomCollection;
+			sourceTree = "<group>";
+		};
+		04D596D91BB3DDD200216B7E /* CABasicAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				04D596DA1BB3DE0600216B7E /* AnimatViewController.h */,
+				04D596DB1BB3DE0600216B7E /* AnimatViewController.m */,
+			);
+			name = CABasicAnimation;
+			sourceTree = "<group>";
+		};
+		04D596E01BB3E00C00216B7E /* Bezier */ = {
+			isa = PBXGroup;
+			children = (
+				04D596DD1BB3E00700216B7E /* BezierViewController.h */,
+				04D596DE1BB3E00700216B7E /* BezierViewController.m */,
+			);
+			name = Bezier;
+			sourceTree = "<group>";
+		};
+		04D596E41BB3E06000216B7E /* CoreGraphic */ = {
+			isa = PBXGroup;
+			children = (
+				04D596E11BB3E05C00216B7E /* CoreGraphicsViewController.h */,
+				04D596E21BB3E05C00216B7E /* CoreGraphicsViewController.m */,
+			);
+			name = CoreGraphic;
+			sourceTree = "<group>";
+		};
+		04D596E81BB3E08500216B7E /* CoreImage */ = {
+			isa = PBXGroup;
+			children = (
+				04D596E51BB3E08000216B7E /* CoreImageViewController.h */,
+				04D596E61BB3E08000216B7E /* CoreImageViewController.m */,
+			);
+			name = CoreImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +269,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0403F59B1BB0E1E0003F3E40 /* Main.storyboard in Resources */,
-				0403F5A01BB0E1E0003F3E40 /* LaunchScreen.xib in Resources */,
 				0403F59D1BB0E1E0003F3E40 /* Images.xcassets in Resources */,
+				04D596B51BB3909F00216B7E /* referanceViewController.plist in Resources */,
+				04D596D81BB3CB9700216B7E /* collectionData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +289,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D596E71BB3E08000216B7E /* CoreImageViewController.m in Sources */,
+				04D596E31BB3E05C00216B7E /* CoreGraphicsViewController.m in Sources */,
+				04D596DC1BB3DE0600216B7E /* AnimatViewController.m in Sources */,
 				0403F5981BB0E1E0003F3E40 /* ViewController.m in Sources */,
+				04D596DF1BB3E00700216B7E /* BezierViewController.m in Sources */,
 				0403F5951BB0E1E0003F3E40 /* AppDelegate.m in Sources */,
+				04D596C21BB3C82C00216B7E /* CustomCollectionCell.m in Sources */,
+				04D596BB1BB3C7DF00216B7E /* CustomCollectionViewController.m in Sources */,
 				0403F5921BB0E1E0003F3E40 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,25 +318,6 @@
 			targetProxy = 0403F5A61BB0E1E0003F3E40 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		0403F5991BB0E1E0003F3E40 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0403F59A1BB0E1E0003F3E40 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0403F59E1BB0E1E0003F3E40 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0403F59F1BB0E1E0003F3E40 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0403F5AD1BB0E1E0003F3E40 /* Debug */ = {
@@ -347,6 +404,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = FirstProjectInGit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = FirstProjectInGit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -416,6 +475,7 @@
 				0403F5B11BB0E1E0003F3E40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0403F5B21BB0E1E0003F3E40 /* Build configuration list for PBXNativeTarget "FirstProjectInGitTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +484,7 @@
 				0403F5B41BB0E1E0003F3E40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

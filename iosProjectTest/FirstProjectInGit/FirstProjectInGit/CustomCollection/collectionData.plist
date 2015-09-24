@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>image</key>
+		<string>101.jpg</string>
+		<key>name</key>
+		<string>头像-女1</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>102.jpg</string>
+		<key>name</key>
+		<string>头像-男1</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>201.jpg</string>
+		<key>name</key>
+		<string>头像-女2</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>202.jpg</string>
+		<key>name</key>
+		<string>头像-男2</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>301.jpg</string>
+		<key>name</key>
+		<string>头像-女3</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>302.jpg</string>
+		<key>name</key>
+		<string>头像-男3</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>401.jpg</string>
+		<key>name</key>
+		<string>头像-女4</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>402.jpg</string>
+		<key>name</key>
+		<string>头像-男4</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>501.jpg</string>
+		<key>name</key>
+		<string>头像-女5</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>502.jpg</string>
+		<key>name</key>
+		<string>头像-男5</string>
+	</dict>
+</array>
+</plist>
