@@ -38,8 +38,7 @@
     
     //上方导航按钮
     self.navigationItem.title=@"图片处理";
-    self.navigationItem.leftBarButtonItem=[[UIBarButtonItem alloc]initWithTitle:@"Open" style:UIBarButtonItemStyleDone target:self action:@selector(openPhoto:)];
-    self.navigationItem.rightBarButtonItem=[[UIBarButtonItem alloc]initWithTitle:@"Save" style:UIBarButtonItemStyleDone target:self action:@selector(savePhoto:)];
+    self.navigationItem.rightBarButtonItem=[[UIBarButtonItem alloc]initWithTitle:@"打开相册" style:UIBarButtonItemStyleDone target:self action:@selector(openPhoto:)];
     
     //下方控制面板
     UIView *controlView=[[UIView alloc]initWithFrame:CGRectMake(0, 450, 320, 118)];
@@ -79,6 +78,12 @@
     sldContrast.maximumValue=2;
     sldContrast.value=1;
     [sldContrast addTarget:self action:@selector(changeContrast:) forControlEvents:UIControlEventValueChanged];
+    
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [btn setFrame:CGRectMake(0, controlView.frame.size.height-30, 80, 30)];
+    [btn setTitle:@"保存" forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(savePhoto:) forControlEvents:UIControlEventTouchUpInside];
+    [controlView addSubview:btn];
     
     //初始化CIContext
     //创建基于CPU的图像上下文
